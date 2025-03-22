@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes - PopMídia</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+        <button class="back-button" onclick="history.back()">Voltar</button>
+    </div>
+    
+    <div class="title-container">
+        <p>Recomendações da semana!</p>
+    </div>
+    
+    <div class="container">
+        <!-- Filme 1 -->
+        <div class="film" data-title="Mickey17" data-description="Um colaborador é enviado em uma expedição humana para colonizar o mundo gelado de Niflheim. 
+        Após uma iteração morrer, um novo corpo é regenerado com a maioria de suas memórias intactas.">
+            <img src="imagens/mickey17.jpg" alt="Mickey17" Width = "390" height = "390">
+            <h3>Mickey17 <br>
+             <font size=3>clique aqui!</font><br>
+
+            </h3>
+        </div>
+        <!-- Filme 2 -->
+        <div class="film" data-title="Ainda estou aqui" data-description="No início da década de 1970, o Brasil enfrenta o endurecimento da ditadura militar. No Rio de Janeiro, a família Paiva - Rubens, Eunice e seus cinco filhos - vive à beira da praia 
+        em uma casa de portas abertas para os amigos. Um dia, Rubens Paiva é levado por militares à paisana e desaparece.">
+            <img src="imagens/ainda-estou-aqui.jpg" alt="Ainda estou aqui" Width = "390" height = "390">
+            <h3>Ainda estou aqui <br>
+                <font size=3>clique aqui!</font><br>
+            </h3>
+        </div>
+        <!-- Filme 3 -->
+        <div class="film" data-title="Gladiador I" data-description="Gladiador é um filme de 2000 que conta a história de um general 
+        romano que se torna escravo e gladiador para se vingar do imperador que assassinou sua família. ">
+            <img src="imagens/gladiador1.jpg" alt="Gladiador I" Width = "390" height = "390">
+            <h3>Gladiador I <br>
+                <font size=3>clique aqui!</font><br>
+            </h3>
+        </div>
+        <!-- Filme 4 -->
+        <div class="film" data-title="Gladiador II" data-description="Lúcio precisa entrar no Coliseu após os poderosos imperadores de Roma conquistarem sua terra natal. Cheio de raiva no coração e 
+        o futuro do império em jogo, ele olha para o passado para encontrar a força e a honra necessárias.">
+            <img src="imagens/gladiador2.jpg" alt="Gladiador II" Width = "390" height = "390">
+            <h3>Gladiador II <br>
+                <font size=3>clique aqui!</font><br>
+            </h3>
+        </div>
+        <!-- Filme 5 -->
+        <div class="film" data-title="Escritores da liberdade" data-description="Uma jovem e idealista professora chega a uma escola de um bairro pobre, 
+        que está corrompida pela agressividade e violência. Os alunos se mostram rebeldes e sem vontade de aprender, e há entre eles uma constante tensão racial. 
+        Assim, para fazer com que os alunos aprendam e também falem mais de suas complicadas vidas, a professora Gruwell aposta em métodos diferentes de ensino. Aos poucos, 
+        os alunos vão retomando a confiança em si mesmos, aceitando mais o conhecimento e reconhecendo valores.">
+            <img src="imagens/escritores-da-liberdade.jpg " alt="Escritores da liberdade" Width = "390" height = "390">
+            <h3>Escritores da liberdade <br>
+                <font size=3>clique aqui!</font><br>
+            </h3>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="film-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <!-- Referência ao JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
